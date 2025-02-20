@@ -35,8 +35,8 @@ A command-line tool that leverages the power of OpenAI's API to help you build, 
 1. **Clone the Repository:**
 
    ```
-   git clone https://github.com/yourusername/resume-tailor.git
-   cd resume-tailor
+   git clone https://github.com/atlasunified/atlas-resume-builder.git
+   cd atlas-resume-builder
    ```
 
 2. **Install Dependencies:**
