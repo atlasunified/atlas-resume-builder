@@ -104,6 +104,151 @@ resume-tailor/
 └── midi/                     # (Optional) Directory containing MIDI files for background playback
 ```
 
+# Resume Tailoring & Cover Letter Generator - Examples
+
+This document provides examples of how the Resume Tailoring & Cover Letter Generator transforms a baseline resume into a tailored one based on a job posting. Additionally, it showcases an AI-generated cover letter.
+
+---
+
+## Example: Baseline Resume
+
+The following is a sample baseline resume before tailoring:
+
+```json
+{
+    "resume": {
+        "job_target": {
+            "position_title": "",
+            "company": "",
+            "location": "",
+            "salary_desired": ""
+        },
+        "personal_info": {
+            "name": "Jeffrey Lebowski",
+            "email": "thedude@ruglover.com",
+            "phone": "(310) 555-1998",
+            "summary": "Laid-back, easygoing professional with years of experience in casual philosophy, recreational bowling, and conflict resolution through nonchalance..."
+        },
+        "work_experience": [
+            {
+                "job_title": "Professional Bowler & Lounge Enthusiast",
+                "company": "The Bowling Alley",
+                "location": "Los Angeles, California",
+                "start_date": "1980",
+                "end_date": "Present",
+                "responsibilities": [
+                    "Maintained an impeccable record of showing up for league nights and engaging in friendly competition.",
+                    "Handled disputes with fellow players with a relaxed attitude..."
+                ],
+                "achievements": [
+                    "Successfully avoided unnecessary aggression in competitive environments.",
+                    "Influenced an entire subculture of nonchalant enthusiasts."
+                ]
+            }
+        ],
+        "education": [
+            {
+                "institution": "University of Life",
+                "degree": "Master of Chill",
+                "location": "Various Locations",
+                "start_date": "Ongoing",
+                "end_date": "Eternal"
+            }
+        ]
+    },
+    "status": "complete",
+    "last_modified": "2025-02-19 12:00:00"
+}
+```
+
+---
+
+## Example: Tailored Resume
+
+After running the tailoring process with a job posting for a **Product Manager, Core Product at Anthropic**, the resume is updated to align with the position's requirements:
+
+```json
+{
+    "resume": {
+        "job_target": {
+            "position_title": "Product Manager, Core Product",
+            "company": "Anthropic",
+            "location": "San Francisco, CA | New York City, NY",
+            "salary_desired": "$305,000 - $385,000 USD"
+        },
+        "personal_info": {
+            "name": "Jeffrey Lebowski",
+            "email": "thedude@ruglover.com",
+            "phone": "(310) 555-1998",
+            "summary": "Laid-back, easygoing professional with years of experience in casual philosophy and innovative strategy. Adept at developing and articulating product strategies that enhance collaboration..."
+        },
+        "work_experience": [
+            {
+                "job_title": "Professional Bowler & Lounge Enthusiast",
+                "company": "The Bowling Alley",
+                "location": "Los Angeles, California",
+                "responsibilities": [
+                    "Advocated for a more laid-back approach to life while maintaining a respectable bowling average.",
+                    "Developed strategic frameworks for player collaboration and long-term performance consistency."
+                ]
+            }
+        ],
+        "leadership_skills": [
+            "Maintaining a Chill Attitude",
+            "Cross-functional Leadership in Complex Product Environments"
+        ],
+        "tools": [
+            "Bowling Ball",
+            "Modern AI Collaboration Platforms"
+        ]
+    },
+    "status": "complete",
+    "last_modified": "2025-02-19 19:55:05"
+}
+```
+
+The AI has updated the **job target, personal summary, and leadership skills** to better align with the Product Manager role, while retaining the essence of the original resume.
+
+---
+
+## Example: AI-Generated Cover Letter
+
+A tailored cover letter is generated based on the customized resume and job posting:
+
+```json
+{
+    "Header": {
+        "Date": "2025-02-19",
+        "Name": "Jeffrey Lebowski",
+        "Email": "thedude@ruglover.com",
+        "Phone": "(310) 555-1998"
+    },
+    "Salutation": "Dear Hiring Manager at Anthropic,",
+    "Body": {
+        "Introduction": "I hope this message finds you well. My name is Jeffrey Lebowski, although many know me as 'The Dude,' a title earned through years of laid-back yet innovative strategizing...",
+        "Reference to Job Posting": "Your quest to transform Claude.ai from a conventional AI into an indispensable cognitive partner mirrors my own journey of advocating for collaboration...",
+        "Summary of Relevant Experience": "At The Bowling Alley, I maintained a chill ethos while engaging in complex negotiations and maintained integrity and ease under pressure...",
+        "Conclusion": "In a world chasing fast-paced progress, I offer an unconventional yet immensely effective approach to innovation and collaboration..."
+    },
+    "Closing": "Sincerely, Jeffrey Lebowski"
+}
+```
+
+This cover letter highlights **alignment with the company's mission, product strategy insights, and unique soft skills** while keeping the tone engaging and memorable.
+
+---
+
+## Summary of Features Demonstrated
+
+1. **Baseline Resume Creation** – Start with a structured resume template.
+2. **AI-Powered Tailoring** – Aligns experience with specific job descriptions.
+3. **Cover Letter Generation** – Produces a job-specific, compelling letter.
+4. **Minimal Effort, Maximum Impact** – Automates the application customization process.
+
+This tool makes job applications effortless while ensuring each submission is uniquely crafted for the role.
+
+---
+
 ---
 
 ## Configuration & Customization
