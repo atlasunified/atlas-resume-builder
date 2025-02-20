@@ -151,7 +151,7 @@ Here’s what we’re working with before the AI steps in. This is the raw mater
             "name": "Jeffrey Lebowski",
             "email": "thedude@ruglover.com",
             "phone": "(310) 555-1998",
-            "summary": "Laid-back, easygoing professional with years of experience in casual philosophy, recreational bowling, and conflict resolution through nonchalance..."
+            "summary": "Laid-back, easygoing professional with years of experience in casual philosophy, recreational bowling, and conflict resolution through nonchalance. Adept at maintaining an even keel in chaotic situations. Passionate about achieving inner peace, mixing the perfect White Russian, and ensuring that rugs really tie the room together."
         },
         "work_experience": [
             {
@@ -162,11 +162,54 @@ Here’s what we’re working with before the AI steps in. This is the raw mater
                 "end_date": "Present",
                 "responsibilities": [
                     "Maintained an impeccable record of showing up for league nights and engaging in friendly competition.",
-                    "Handled disputes with fellow players with a relaxed attitude..."
+                    "Developed a signature smooth bowling style that\u2019s been admired (and occasionally questioned) by peers.",
+                    "Handled disputes with fellow players with a relaxed attitude, even in moments of extreme tension.",
+                    "Advocated for a more laid-back approach to life while maintaining a respectable bowling average."
                 ],
                 "achievements": [
                     "Successfully avoided unnecessary aggression in competitive environments.",
-                    "Influenced an entire subculture of nonchalant enthusiasts."
+                    "Influenced an entire subculture of nonchalant enthusiasts.",
+                    "Ensured rugs across multiple residences truly tied the rooms together."
+                ],
+                "programs_managed": [
+                    "Local Bowling League",
+                    "The Art of Doing Nothing",
+                    "Philosophical Discussions Over White Russians"
+                ],
+                "technologies": [
+                    "Bowling Balls",
+                    "Rug Maintenance",
+                    "Classic Vinyl Records",
+                    "Couch Optimization"
+                ]
+            },
+            {
+                "job_title": "Casual Detective",
+                "company": "Independent Investigator",
+                "location": "Los Angeles, California",
+                "start_date": "1991",
+                "end_date": "1998",
+                "responsibilities": [
+                    "Investigated the mystery of a missing rug that was integral to home decor.",
+                    "Engaged in diplomatic negotiations with eccentric individuals, including nihilists and eccentric businessmen.",
+                    "Leveraged casual charisma to obtain key information without exerting undue effort.",
+                    "Survived multiple life-threatening situations while maintaining a chilled-out demeanor."
+                ],
+                "achievements": [
+                    "Recovered a fraction of what was lost.",
+                    "Navigated treacherous social circles without compromising personal ethics.",
+                    "Successfully avoided paying for a new rug."
+                ],
+                "programs_managed": [
+                    "Amateur Investigations",
+                    "Surviving Unusual Social Encounters",
+                    "Crisis Management Through Relaxation"
+                ],
+                "technologies": [
+                    "Sunglasses",
+                    "Taped-Up Jellies",
+                    "Answering Machine",
+                    "Bowling Lanes"
                 ]
             }
         ],
@@ -176,9 +219,40 @@ Here’s what we’re working with before the AI steps in. This is the raw mater
                 "degree": "Master of Chill",
                 "location": "Various Locations",
                 "start_date": "Ongoing",
-                "end_date": "Eternal"
+                "end_date": "Eternal",
+                "details": "Deep study into the art of relaxation, casual philosophy, and knowing when to let things slide."
             }
-        ]
+        ],
+        "certifications": [
+            {
+                "name": "League Champion",
+                "specialization": "Bowling Excellence",
+                "awarded_by": "Local Bowling League",
+                "year": "1997"
+            },
+            {
+                "name": "White Russian Mixology",
+                "specialization": "Drink Crafting",
+                "awarded_by": "Self-Taught",
+                "year": "1993"
+            }
+        ],
+        "leadership_skills": [
+            "Maintaining a Chill Attitude",
+            "Conflict Avoidance",
+            "Bowling Strategy",
+            "Carpet Appreciation"
+        ],
+        "tools": [
+            "Bowling Ball",
+            "Blender (for White Russians)",
+            "Sunglasses",
+            "Robe & Pajamas"
+        ],
+        "online_profiles": {
+            "hugging_face": "TheDudeAbides",
+            "github": "RugLover42"
+        }
     },
     "status": "complete",
     "last_modified": "2025-02-19 12:00:00"
@@ -204,27 +278,110 @@ Now, we throw in a job posting—let’s say, **Product Manager at Anthropic**�
             "name": "Jeffrey Lebowski",
             "email": "thedude@ruglover.com",
             "phone": "(310) 555-1998",
-            "summary": "Laid-back, easygoing professional with years of experience in casual philosophy and innovative strategy. Adept at developing and articulating product strategies that enhance collaboration..."
+            "summary": "Laid-back, easygoing professional with years of experience in casual philosophy and innovative strategy. Adept at developing and articulating product strategies that enhance collaboration. Passionate about ensuring that AI capabilities really tie user experiences together."
         },
         "work_experience": [
             {
                 "job_title": "Professional Bowler & Lounge Enthusiast",
                 "company": "The Bowling Alley",
                 "location": "Los Angeles, California",
+                "start_date": "1980",
+                "end_date": "Present",
                 "responsibilities": [
-                    "Advocated for a more laid-back approach to life while maintaining a respectable bowling average.",
-                    "Developed strategic frameworks for player collaboration and long-term performance consistency."
+                    "Maintained an impeccable record of showing up for league nights and engaging in friendly competition.",
+                    "Developed a signature smooth bowling style that\u2019s been admired (and occasionally questioned) by peers.",
+                    "Handled disputes with fellow players with a relaxed attitude, even in moments of extreme tension.",
+                    "Advocated for a more laid-back approach to life while maintaining a respectable bowling average."
+                ],
+                "achievements": [
+                    "Successfully avoided unnecessary aggression in competitive environments.",
+                    "Influenced an entire subculture of nonchalant enthusiasts.",
+                    "Ensured rugs across multiple residences truly tied the rooms together."
+                ],
+                "programs_managed": [
+                    "Local Bowling League",
+                    "The Art of Doing Nothing",
+                    "Philosophical Discussions Over White Russians"
+                ],
+                "technologies": [
+                    "Bowling Balls",
+                    "Rug Maintenance",
+                    "Classic Vinyl Records",
+                    "Couch Optimization"
                 ]
+            },
+            {
+                "job_title": "Casual Detective",
+                "company": "Independent Investigator",
+                "location": "Los Angeles, California",
+                "start_date": "1991",
+                "end_date": "1998",
+                "responsibilities": [
+                    "Investigated the mystery of a missing rug that was integral to home decor.",
+                    "Engaged in diplomatic negotiations with eccentric individuals, including nihilists and eccentric businessmen.",
+                    "Leveraged casual charisma to obtain key information without exerting undue effort.",
+                    "Survived multiple life-threatening situations while maintaining a chilled-out demeanor."
+                ],
+                "achievements": [
+                    "Recovered a fraction of what was lost.",
+                    "Navigated treacherous social circles without compromising personal ethics.",
+                    "Successfully avoided paying for a new rug."
+                ],
+                "programs_managed": [
+                    "Amateur Investigations",
+                    "Surviving Unusual Social Encounters",
+                    "Crisis Management Through Relaxation"
+                ],
+                "technologies": [
+                    "Sunglasses",
+                    "Taped-Up Jellies",
+                    "Answering Machine",
+                    "Bowling Lanes"
+                ]
+            }
+        ],
+        "education": [
+            {
+                "institution": "University of Life",
+                "degree": "Master of Chill",
+                "location": "Various Locations",
+                "start_date": "Ongoing",
+                "end_date": "Eternal",
+                "details": "Deep study into the art of relaxation, casual philosophy, and knowing when to let things slide."
+            }
+        ],
+        "certifications": [
+            {
+                "name": "League Champion",
+                "specialization": "Bowling Excellence",
+                "awarded_by": "Local Bowling League",
+                "year": "1997"
+            },
+            {
+                "name": "White Russian Mixology",
+                "specialization": "Drink Crafting",
+                "awarded_by": "Self-Taught",
+                "year": "1993"
             }
         ],
         "leadership_skills": [
             "Maintaining a Chill Attitude",
+            "Conflict Avoidance",
+            "Bowling Strategy",
+            "Carpet Appreciation",
             "Cross-functional Leadership in Complex Product Environments"
         ],
         "tools": [
             "Bowling Ball",
+            "Blender (for White Russians)",
+            "Sunglasses",
+            "Robe & Pajamas",
             "Modern AI Collaboration Platforms"
-        ]
+        ],
+        "online_profiles": {
+            "hugging_face": "TheDudeAbides",
+            "github": "RugLover42"
+        }
     },
     "status": "complete",
     "last_modified": "2025-02-19 19:55:05"
