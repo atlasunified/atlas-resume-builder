@@ -1,0 +1,47 @@
+**Title:** Product Manager, Core Product (Claude.ai)  
+**Company:** Anthropic  
+**Location(s):** San Francisco, CA | New York City, NY  
+**Salary Range:** $305,000 – $385,000 USD  
+
+### Role Overview
+As the Product Manager for Core Product at Claude.ai, your primary role is to transition Claude from a standard AI assistant to an essential collaborative partner. This involves defining and implementing core interaction models and capabilities that elevate human-AI collaboration while ensuring ease of use and reliability. You will lead at the confluence of advanced AI functionalities and user requirements, aimed at enhancing human cognitive tasks.
+
+### Key Responsibilities
+**Product Strategy & Vision:**
+- Develop and articulate a strategy for Claude’s core interaction model, ensuring a balance between advanced capabilities and user-friendly design.
+- Create frameworks for identifying and prioritizing new collaboration patterns that significantly enhance user interactions with Claude.
+- Formulate roadmaps to systematically improve Claude's capability to handle complex, multi-turn interactions.
+
+**Product Development:**
+- Collaborate with research and engineering teams to convert novel AI capabilities into user-friendly collaborative features.
+- Design and test new interaction patterns to improve Claude’s effectiveness as a thought partner.
+- Build and refine core workflows to facilitate deeper collaborations between users and Claude.
+- Establish quality frameworks to ensure Claude consistently delivers high-value experiences.
+
+**Cross-functional Leadership:**
+- Work with design teams to develop intuitive interfaces for complex, collaborative interactions.
+- Partner with research teams to identify enhancements for Claude’s collaborative features.
+- Engage with user research to understand user interaction preferences with AI.
+- Coordinate with platform teams to ensure scalability of core features across multiple channels.
+
+### Qualifications
+- At least 8+ years of product management experience with a proven track record of launching complex, user-facing products.
+- Profound understanding of human-computer interaction and collaboration patterns.
+- Exceptional communication skills with the ability to unite and align diverse groups of stakeholders.
+
+**Preferred Qualifications:**
+- Experience in developing AI/ML products or other emerging technologies.
+- Background in tools for knowledge work or creative collaboration.
+- Familiarity with the capabilities and limitations of large language models.
+- Experience with 0-to-1 product development processes.
+
+**Additional Required Skills:**
+- Strong analytical skills to interpret research and apply findings to product features.
+- Adaptability in a fast-paced and evolving technology landscape.
+- Ability to think creatively and strategically about product development and user engagement.
+- Demonstrated leadership in cross-functional settings, driving collaborative innovation.
+
+### Everything Else
+This role fundamentally requires a blend of visionary product development and cross-functional leadership. You will be tasked with bridging the gap between advanced AI capabilities and user-centric design, necessitating both technical prowess and creative strategy. The expectation is to collaborate across various teams to ensure that Claude evolves in a scalable manner while delivering consistently exceptional user experiences. Your work at Anthropic will have profound impacts on AI technology and its implications for society.
+
+Anthropic values a collaborative, inclusive environment where diverse perspectives are encouraged, recognizing the ethical and societal importance of its AI work. The company provides competitive compensation packages, a flexible hybrid working policy, and visa sponsorships where applicable.
