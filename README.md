@@ -104,13 +104,15 @@ resume-tailor/
 └── midi/                     # (Optional) Directory containing MIDI files for background playback
 ```
 
-# Resume Tailoring & Cover Letter Generator - Examples
+---
+
+## Resume Tailoring & Cover Letter Generator - Examples
 
 This document provides examples of how the Resume Tailoring & Cover Letter Generator transforms a baseline resume into a tailored one based on a job posting. Additionally, it showcases an AI-generated cover letter.
 
 ---
 
-## Example: Baseline Resume
+### Example: Baseline Resume
 
 The following is a sample baseline resume before tailoring:
 
@@ -163,7 +165,7 @@ The following is a sample baseline resume before tailoring:
 
 ---
 
-## Example: Tailored Resume
+### Example: Tailored Resume
 
 After running the tailoring process with a job posting for a **Product Manager, Core Product at Anthropic**, the resume is updated to align with the position's requirements:
 
@@ -211,7 +213,7 @@ The AI has updated the **job target, personal summary, and leadership skills** t
 
 ---
 
-## Example: AI-Generated Cover Letter
+### Example: AI-Generated Cover Letter
 
 A tailored cover letter is generated based on the customized resume and job posting:
 
@@ -238,7 +240,7 @@ This cover letter highlights **alignment with the company's mission, product str
 
 ---
 
-## Summary of Features Demonstrated
+### Summary of Features Demonstrated
 
 1. **Baseline Resume Creation** – Start with a structured resume template.
 2. **AI-Powered Tailoring** – Aligns experience with specific job descriptions.
@@ -246,8 +248,6 @@ This cover letter highlights **alignment with the company's mission, product str
 4. **Minimal Effort, Maximum Impact** – Automates the application customization process.
 
 This tool makes job applications effortless while ensuring each submission is uniquely crafted for the role.
-
----
 
 ---
 
