@@ -101,7 +101,7 @@ No need for fancy software, man. This thing runs right in your terminal.
 
   ```bash
   echo '#!/bin/bash
-python3 main.py' > run.sh
+  python3 main.py' > run.sh
   chmod +x run.sh
   ./run.sh
   ```
