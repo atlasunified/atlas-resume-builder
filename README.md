@@ -1,3 +1,7 @@
+![The Dude](thedude.jpg)
+
+---
+
 # Resume Tailoring & Cover Letter Generator
 
 Hey man, need to polish up your resume? Tailor it to a specific job posting? Maybe even get a cover letter that doesn’t sound like it was written by a corporate drone? This tool's got you covered. 
