@@ -1,8 +1,9 @@
-﻿import os
+import os
 import json
 import openai
 import requests
 import random
+import unicodedata
 from bs4 import BeautifulSoup
 from datetime import datetime
 from rich.console import Console
@@ -281,6 +282,10 @@ def load_resume(resume_name):
         console.print(f"[red]Error loading resume {resume_name}: {e}[/red]")
         return None
 
+def clean_unicode(text):
+    """Normalize and clean up any weird Unicode characters."""
+    return unicodedata.normalize("NFKC", text)
+
 def create_cover_letter(tailored_resume, job_posting_data):
     """
     Generate a cover letter in JSON format using the provided resume and job posting.
@@ -297,12 +302,13 @@ def create_cover_letter(tailored_resume, job_posting_data):
         job_posting_dict = job_posting_data
 
     # Convert the resume and job posting to formatted JSON strings for clarity.
-    resume_str = json.dumps(tailored_resume, indent=2)
-    job_posting_str = json.dumps(job_posting_dict, indent=2)
+    resume_str = json.dumps(tailored_resume, indent=2, ensure_ascii=False)
+    job_posting_str = json.dumps(job_posting_dict, indent=2, ensure_ascii=False)
 
     prompt = (
         "Using the resume and job posting provided below, generate a captivating, award-winning cover letter in JSON format. "
         "This cover letter must break the mold of generic templates by showcasing creativity, passion, and specificity to both the candidate's achievements and the job requirements. "
+        "Ensure the response is free from any encoded Unicode escape sequences like \\u2019 and outputs clean, natural text. "
         "The output should be a well-structured JSON object with the following sections:\n\n"
         "1. Header: Include the current date, the candidate's full name, and their contact information (email and phone number).\n"
         "2. Salutation: A personalized greeting addressing the hiring manager directly.\n"
@@ -312,8 +318,7 @@ def create_cover_letter(tailored_resume, job_posting_data):
         "   c. Summary of Relevant Experience: Provide a detailed, dynamic account of the candidate’s accomplishments and skills, highlighting what sets them apart and how they will add value to the organization.\n"
         "   d. Conclusion: Offer a compelling closing statement that reiterates enthusiasm, includes a call to action, and leaves a memorable impression.\n"
         "4. Closing: A professional sign-off with the candidate’s name.\n\n"
-        "Use vibrant and varied language that reflects the candidate's unique career journey and expertise. Avoid clichés and generic statements. "
-        "Output only the JSON cover letter without any markdown formatting, explanations, or additional commentary.\n\n"
+        "Output strictly as a JSON object with no markdown formatting or explanations.\n\n"
         f"Resume:\n{resume_str}\n\n"
         f"Job Posting:\n{job_posting_str}"
     )
@@ -328,7 +333,10 @@ def create_cover_letter(tailored_resume, job_posting_data):
         )
         cover_letter_output = completion.choices[0].message.content
 
-        # Remove markdown code block formatting if present.
+        # Step 1: Clean Unicode in the raw text (before parsing)
+        cover_letter_output = clean_unicode(cover_letter_output)
+
+        # Remove markdown formatting if present
         lines = cover_letter_output.splitlines()
         if lines and lines[0].strip().startswith("```"):
             lines = lines[1:]
@@ -336,9 +344,23 @@ def create_cover_letter(tailored_resume, job_posting_data):
             lines = lines[:-1]
         cover_letter_output = "\n".join(lines).strip()
 
-        # Parse the output as JSON.
-        cover_letter_json = json.loads(cover_letter_output)
+        # Step 2: Try parsing the cleaned text as JSON
+        try:
+            cover_letter_json = json.loads(cover_letter_output)
+        except json.JSONDecodeError:
+            console.print("[yellow]Warning: First JSON parse failed. Retrying cleanup...[/yellow]")
+            cover_letter_output = clean_unicode(cover_letter_output)
+            cover_letter_json = json.loads(cover_letter_output)
+
+        # Step 3: Dump and load JSON with ensure_ascii=False and repeatedly clean until no escape sequences remain.
+        cleaned_json_str = json.dumps(cover_letter_json, indent=4, ensure_ascii=False)
+        # Loop until there are no Unicode escapes in the dumped string
+        while "\\u" in cleaned_json_str:
+            cleaned_json_str = clean_unicode(cleaned_json_str)
+        cover_letter_json = json.loads(cleaned_json_str)
+
         return cover_letter_json
+
     except Exception as e:
         console.print(f"[red]Error generating cover letter: {e}[/red]")
         return None
