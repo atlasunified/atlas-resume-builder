@@ -100,8 +100,7 @@ No need for fancy software, man. This thing runs right in your terminal.
   Create a simple Bash script:
 
   ```bash
-  echo '#!/bin/bash
-  python3 main.py' > run.sh
+  echo -e '#!/bin/bash\npython3 main.py' > run.sh
   chmod +x run.sh
   ./run.sh
   ```
